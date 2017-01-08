@@ -4,26 +4,25 @@
   <meta charset="UTF-8">
   <title>Saji Bhaskaran</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
 
-      <link rel="stylesheet" href="css/style.css">
-
-  
 </head>
 
-<body>
-  <nav class="navbar navbar-fixed-top navbar-inverse">
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+
+  <nav class="navbar navbar-default navbar-inverse" data-spy = "affix" data-offset="300">
   <div class=container>
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> 
-      <span class = "sr-only">Toggle Navigation</span>
-      <span class="icon-bar"></span>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class = "sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
-      <a class="navbar-brand" href="#page-header">Saji Bhaskaran </a>
+      <a class="navbar-brand" href="#top">Saji Bhaskaran </a>
 
     </div>
     <!-- end of navbar-header -->
@@ -44,14 +43,14 @@
 </nav>
 <!-- end of nav -->
 
-<div class="container">
+<div class="container" id="top">
   <div class="row size text-center">
     <!--div class= "col-lg-2 col md-2 col-sm-2"></div-->
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 
       <div id="page-header">
         <h1>Saji Bhaskaran</h1>
-        <h2>Web Developer</h2>
+        <h2>Software Developer</h2>
 
         <ul class="list-inline intro-social-buttons">
           <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></a></i>
@@ -87,7 +86,8 @@
           Hi, my name is Saji - I'm a self taught FrontEnd Developer and Programmer.
         </p>
         <p class="text">
-          Let us work together to make your website beautiful, dynamic and responsive. My skill set includes HTML5, CSS, JavaScript, PHP, mySQL and Python.
+          Let us work together to make your website beautiful, dynamic and responsive.
+          My skill set includes HTML5, CSS, JavaScript, PHP, mySQL and Python.
         </p>
         <p>
           As well as making websites, I enjoy playing Tennis, watching movies, and playing with my kids.
@@ -104,37 +104,44 @@
 
 <div id="portfolio">
   <div class="container">
-    <div class="row size margin text-center">
-      <div id="portfolio-wrapper">
+
+      <div id="portfolio-wrapper" class="text-center">
+
         <h2>Portfolio</h2>
         <hr>
-        <div class="col-md-6 col-sm-6 col-xs-12 text-center">
-          <div class="thumbnail">
-            <a><img src="http://i.imgur.com/B9jD8w6.png">
-            </a>
-          </div>
-          <div class="thumbnail">
-            <a><img src="http://i.imgur.com/fOCEnBL.png">
-            </a>
-          </div>
-          <div class="thumbnail">
-            <a><img src="http://i.imgur.com/KLRaCbV.png">
-            </a>
-          </div>
+        <div class="row ">
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://sajibhaskaran.github.io/Simon-game/" class="thumbnail">
+            <img class="img-responsive" src="http://i.imgur.com/B9jD8w6.png" alt="">
+          </a>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12 text-center">
-          <div class="thumbnail">
-            <a><img src="http://i.imgur.com/GPCB3Cg.png">
-            </a>
-          </div>
-          <div class="thumbnail">
-            <a><img src="http://i.imgur.com/81zNfhF.png">
-            </a>
-          </div>
-          <div class="thumbnail">
-            <a><img src="http://i.imgur.com/cYhNWBo.png">
-            </a>
-          </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://sajibhaskaran.github.io/Heatmap/"" target="_blank" class="thumbnail">
+            <img class="img-responsive" src="images/heatmap.png" alt="">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://github.com/sajibhaskaran/Scatterplot" target="_blank" class="thumbnail">
+            <img class="img-responsive" src="images/scatterplot.png" alt="">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="#" class="thumbnail">
+            <img class="img-responsive" src="http://i.imgur.com/GPCB3Cg.png" alt="">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://sajibhaskaran.github.io/Barchart/" target="_blank" class="thumbnail">
+            <img class="img-responsive" src="images/barchart.png" alt="">
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <a href="https://sajibhaskaran.github.io/FCC-Weather-App/" target="_blank" class="thumbnail">
+            <img class="img-responsive" src="images/weather.png" alt="">
+          </a>
+        </div>
+
 
         </div>
       </div>
@@ -142,7 +149,7 @@
     <!--end of row-->
   </div>
   <!--end of container-->
-</div>
+
 <!-- end of portfolio-->
 
 <div id="contact">
@@ -175,9 +182,8 @@
 </div>
 <!-- end of contact-->
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-
-    <script src="js/index.js"></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
 
 </body>
 </html>
