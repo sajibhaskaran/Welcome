@@ -139,6 +139,11 @@ div, p{
 
 }
 
+#skills {
+  width: 80%;
+  margin: auto;
+}
+
 
 #contact-wrapper{
   display:;
